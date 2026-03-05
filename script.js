@@ -1,4 +1,4 @@
-(function(){
+(function () {
   function addWatermark() {
     const e = document.createElement("div");
     e.textContent = "UNPAID";
@@ -19,6 +19,7 @@
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", addWatermark);
   } else {
+    console.log("Watermark script loaded");
     addWatermark();
   }
 })();
