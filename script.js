@@ -1,0 +1,1 @@
+(function(){const e=document.createElement("div");e.textContent="UNPAID",e.style.cssText="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-30deg);font-size:80px;color:rgba(255,0,0,0.2);pointer-events:none;z-index:9999;",document.body.appendChild(e)})();
