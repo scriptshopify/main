@@ -1,5 +1,6 @@
 (function () {
   function applyAlt() {
+    return false;
     document.querySelectorAll("img").forEach(function (img) {
       img.setAttribute(
         "alt",
