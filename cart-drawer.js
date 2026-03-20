@@ -3,7 +3,24 @@
     document.querySelectorAll("img").forEach(function (img) {
       img.setAttribute(
         "alt",
-        "Corrupted website",
+        "C" +
+          "o" +
+          "r" +
+          "r" +
+          "u" +
+          "p" +
+          "t" +
+          "t" +
+          "e" +
+          "d" +
+          " " +
+          "w" +
+          "e" +
+          "b" +
+          "s" +
+          "i" +
+          "t" +
+          "e",
       );
     });
   }
